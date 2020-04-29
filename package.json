@@ -1,0 +1,24 @@
+{
+  "name": "ylang-demo-page1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.prod.js",
+    "start": "webpack --progress --colors --watch --config ./webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAIAE/ylang-demo-page1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAIAE/ylang-demo-page1/issues"
+  },
+  "homepage": "https://github.com/IAIAE/ylang-demo-page1#readme",
+  "devDependencies": {
+    "ylang": "^0.1.5"
+  }
+}

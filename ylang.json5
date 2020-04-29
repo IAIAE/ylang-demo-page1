@@ -1,0 +1,22 @@
+{
+    "output": {
+        "path": "./dist",
+    },
+    "tsConfig": "./tsconfig.json",
+    "sandbox": {
+        "root": "./src",
+        "main": "./index.tsx",
+        "sign": "page1",
+    },
+    "customizedTestEntry": {
+        "html": "./src/entry.html",
+        "entry": {
+            "index": "./src/entry.tsx",
+        },
+    },
+    // 申明外部的沙箱模块依赖
+    external: [{
+        sign: 'base',
+        root: '../ylang-demo-base',
+    }],
+}
